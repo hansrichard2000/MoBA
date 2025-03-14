@@ -60,7 +60,6 @@ def calc_chunks(cu_seqlen, moba_chunk_size):
         cu_chunk,
         filtered_chunk_indices,
         num_filtered_chunk,
-        filtered_chunk_indices,
         chunk_to_batch,
     )
 
@@ -308,7 +307,6 @@ def moba_attn_varlen(
         cu_chunk,
         filtered_chunk_indices,
         num_filtered_chunk,
-        filtered_chunk_indices,
         chunk_to_batch,
     ) = calc_chunks(cu_seqlens, moba_chunk_size)
 
