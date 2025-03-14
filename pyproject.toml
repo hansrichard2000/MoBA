@@ -6,9 +6,6 @@ description = "MoBA: Mixture of Block Attention for Long-Context LLMs"
 readme = "README.md"
 dynamic = ["dependencies"]
 
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
-
 [tool.setuptools.packages.find]
 where = ["."]  
 include = ["moba*"] 
