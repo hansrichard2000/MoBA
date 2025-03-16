@@ -1,5 +1,6 @@
 __pycache__
 *.egg-info
 build
-examples/results
+examples/model
 examples/models
+examples/results
